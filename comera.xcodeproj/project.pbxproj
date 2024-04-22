@@ -1,0 +1,821 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0408881B2BA325B2008250AF /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0408881A2BA325B2008250AF /* RegisterVC.swift */; };
+		0408881D2BA33181008250AF /* T&CVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0408881C2BA33181008250AF /* T&CVC.swift */; };
+		0408881F2BA331E7008250AF /* servicesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0408881E2BA331E7008250AF /* servicesVC.swift */; };
+		040888212BA334E9008250AF /* changePVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040888202BA334E9008250AF /* changePVC.swift */; };
+		042434652BB476C000C3B3E6 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042434642BB476C000C3B3E6 /* Response.swift */; };
+		042434672BB4827500C3B3E6 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042434662BB4827500C3B3E6 /* Global.swift */; };
+		04248A392BA874D70057C92B /* editProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04248A382BA874D70057C92B /* editProfileVC.swift */; };
+		04248A3B2BA88E550057C92B /* loactionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04248A3A2BA88E550057C92B /* loactionVC.swift */; };
+		04248A3F2BA88EAB0057C92B /* locationTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04248A3E2BA88EAB0057C92B /* locationTVCell.swift */; };
+		04260D582BB31F5200BF670D /* ApiEndPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04260D572BB31F5200BF670D /* ApiEndPoints.swift */; };
+		04260D5A2BB3210500BF670D /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04260D592BB3210500BF670D /* RequestManager.swift */; };
+		0442CF892B9AF68600564E81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0442CF882B9AF68600564E81 /* AppDelegate.swift */; };
+		0442CF8B2B9AF68600564E81 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0442CF8A2B9AF68600564E81 /* SceneDelegate.swift */; };
+		0442CF8D2B9AF68600564E81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0442CF8C2B9AF68600564E81 /* ViewController.swift */; };
+		0442CF902B9AF68600564E81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0442CF8E2B9AF68600564E81 /* Main.storyboard */; };
+		0442CF922B9AF68700564E81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0442CF912B9AF68700564E81 /* Assets.xcassets */; };
+		0442CF952B9AF68700564E81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0442CF932B9AF68700564E81 /* LaunchScreen.storyboard */; };
+		0442CFA02B9AF68800564E81 /* comeraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0442CF9F2B9AF68800564E81 /* comeraTests.swift */; };
+		0442CFAA2B9AF68800564E81 /* comeraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0442CFA92B9AF68800564E81 /* comeraUITests.swift */; };
+		0442CFAC2B9AF68800564E81 /* comeraUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0442CFAB2B9AF68800564E81 /* comeraUITestsLaunchTests.swift */; };
+		044B666A2BA32752004A4EBB /* dashBoardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044B66692BA32752004A4EBB /* dashBoardVC.swift */; };
+		0468F1002BAD56D50021CE86 /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0468F0FF2BAD56D50021CE86 /* SideMenuViewController.swift */; };
+		0468F1022BAD5F4A0021CE86 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0468F1012BAD5F4A0021CE86 /* MenuCell.swift */; };
+		046A86A02BA325B10021D61D /* privacyPolicyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046A869F2BA325B10021D61D /* privacyPolicyVC.swift */; };
+		04721FDA2BA3218A003E8467 /* extensionUIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04721FD92BA3218A003E8467 /* extensionUIColor.swift */; };
+		04721FDD2BA3220C003E8467 /* extensionUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04721FDC2BA3220C003E8467 /* extensionUIView.swift */; };
+		0475B5F72BAD8FF500E5F98F /* settingVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0475B5F62BAD8FF500E5F98F /* settingVc.swift */; };
+		04793B8B2BA3213C00116736 /* profileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04793B8A2BA3213C00116736 /* profileVC.swift */; };
+		047949152BA320FE0038A307 /* SEcondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047949142BA320FE0038A307 /* SEcondVC.swift */; };
+		047949172BA324990038A307 /* thirdVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047949162BA324990038A307 /* thirdVC.swift */; };
+		047949192BA3267E0038A307 /* signINVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047949182BA3267E0038A307 /* signINVC.swift */; };
+		048078392BA2E42C001B86D1 /* firstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048078382BA2E42C001B86D1 /* firstVC.swift */; };
+		049214042BA323F800032D42 /* subscriptionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049214032BA323F800032D42 /* subscriptionVC.swift */; };
+		04BEA9842BB5423D00BD89DB /* AlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BEA9832BB5423D00BD89DB /* AlertHelper.swift */; };
+		0D666E5B340C7A1A8152CC9E /* Pods_comera.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60B4996CD248F90107282A47 /* Pods_comera.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0442CF9C2B9AF68800564E81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0442CF7D2B9AF68500564E81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0442CF842B9AF68600564E81;
+			remoteInfo = comera;
+		};
+		0442CFA62B9AF68800564E81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0442CF7D2B9AF68500564E81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0442CF842B9AF68600564E81;
+			remoteInfo = comera;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0408881A2BA325B2008250AF /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		0408881C2BA33181008250AF /* T&CVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "T&CVC.swift"; sourceTree = "<group>"; };
+		0408881E2BA331E7008250AF /* servicesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = servicesVC.swift; sourceTree = "<group>"; };
+		040888202BA334E9008250AF /* changePVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = changePVC.swift; sourceTree = "<group>"; };
+		042434642BB476C000C3B3E6 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		042434662BB4827500C3B3E6 /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		04248A382BA874D70057C92B /* editProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = editProfileVC.swift; sourceTree = "<group>"; };
+		04248A3A2BA88E550057C92B /* loactionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loactionVC.swift; sourceTree = "<group>"; };
+		04248A3E2BA88EAB0057C92B /* locationTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = locationTVCell.swift; sourceTree = "<group>"; };
+		04260D572BB31F5200BF670D /* ApiEndPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiEndPoints.swift; sourceTree = "<group>"; };
+		04260D592BB3210500BF670D /* RequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestManager.swift; sourceTree = "<group>"; };
+		0442CF852B9AF68600564E81 /* comera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = comera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0442CF882B9AF68600564E81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0442CF8A2B9AF68600564E81 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0442CF8C2B9AF68600564E81 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0442CF8F2B9AF68600564E81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0442CF912B9AF68700564E81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0442CF942B9AF68700564E81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0442CF962B9AF68700564E81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0442CF9B2B9AF68800564E81 /* comeraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = comeraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0442CF9F2B9AF68800564E81 /* comeraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = comeraTests.swift; sourceTree = "<group>"; };
+		0442CFA52B9AF68800564E81 /* comeraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = comeraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0442CFA92B9AF68800564E81 /* comeraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = comeraUITests.swift; sourceTree = "<group>"; };
+		0442CFAB2B9AF68800564E81 /* comeraUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = comeraUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		044B66692BA32752004A4EBB /* dashBoardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dashBoardVC.swift; sourceTree = "<group>"; };
+		0468F0FF2BAD56D50021CE86 /* SideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		0468F1012BAD5F4A0021CE86 /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		046A869F2BA325B10021D61D /* privacyPolicyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = privacyPolicyVC.swift; sourceTree = "<group>"; };
+		04721FD92BA3218A003E8467 /* extensionUIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensionUIColor.swift; sourceTree = "<group>"; };
+		04721FDC2BA3220C003E8467 /* extensionUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensionUIView.swift; sourceTree = "<group>"; };
+		0475B5F62BAD8FF500E5F98F /* settingVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingVc.swift; sourceTree = "<group>"; };
+		04793B8A2BA3213C00116736 /* profileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileVC.swift; sourceTree = "<group>"; };
+		047949142BA320FE0038A307 /* SEcondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SEcondVC.swift; sourceTree = "<group>"; };
+		047949162BA324990038A307 /* thirdVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thirdVC.swift; sourceTree = "<group>"; };
+		047949182BA3267E0038A307 /* signINVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signINVC.swift; sourceTree = "<group>"; };
+		048078382BA2E42C001B86D1 /* firstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstVC.swift; sourceTree = "<group>"; };
+		049214032BA323F800032D42 /* subscriptionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = subscriptionVC.swift; sourceTree = "<group>"; };
+		04BEA9832BB5423D00BD89DB /* AlertHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertHelper.swift; sourceTree = "<group>"; };
+		09B771A4A80C45470FCA598E /* Pods-comera.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-comera.release.xcconfig"; path = "Target Support Files/Pods-comera/Pods-comera.release.xcconfig"; sourceTree = "<group>"; };
+		1B86E7AADAC4388AA8AA52E9 /* Pods-comera.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-comera.debug.xcconfig"; path = "Target Support Files/Pods-comera/Pods-comera.debug.xcconfig"; sourceTree = "<group>"; };
+		60B4996CD248F90107282A47 /* Pods_comera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_comera.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0442CF822B9AF68600564E81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D666E5B340C7A1A8152CC9E /* Pods_comera.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0442CF982B9AF68800564E81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0442CFA22B9AF68800564E81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04248A3C2BA88E700057C92B /* Landing View */ = {
+			isa = PBXGroup;
+			children = (
+				048078382BA2E42C001B86D1 /* firstVC.swift */,
+				047949142BA320FE0038A307 /* SEcondVC.swift */,
+				047949162BA324990038A307 /* thirdVC.swift */,
+			);
+			path = "Landing View";
+			sourceTree = "<group>";
+		};
+		04248A3D2BA88E810057C92B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04248A3E2BA88EAB0057C92B /* locationTVCell.swift */,
+				0468F1012BAD5F4A0021CE86 /* MenuCell.swift */,
+				042434642BB476C000C3B3E6 /* Response.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0442CF7C2B9AF68500564E81 = {
+			isa = PBXGroup;
+			children = (
+				04248A3D2BA88E810057C92B /* Model */,
+				04721FDB2BA3219E003E8467 /* Extension */,
+				048078352BA2E339001B86D1 /* Controller */,
+				0442CF872B9AF68600564E81 /* comera */,
+				0442CF9E2B9AF68800564E81 /* comeraTests */,
+				0442CFA82B9AF68800564E81 /* comeraUITests */,
+				0442CF862B9AF68600564E81 /* Products */,
+				7C3872D036028C29D56FD65C /* Pods */,
+				40D5A14FF6C5ED28E8DF9D87 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0442CF862B9AF68600564E81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0442CF852B9AF68600564E81 /* comera.app */,
+				0442CF9B2B9AF68800564E81 /* comeraTests.xctest */,
+				0442CFA52B9AF68800564E81 /* comeraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0442CF872B9AF68600564E81 /* comera */ = {
+			isa = PBXGroup;
+			children = (
+				0442CF882B9AF68600564E81 /* AppDelegate.swift */,
+				0442CF8A2B9AF68600564E81 /* SceneDelegate.swift */,
+				0442CF8C2B9AF68600564E81 /* ViewController.swift */,
+				0442CF8E2B9AF68600564E81 /* Main.storyboard */,
+				0442CF912B9AF68700564E81 /* Assets.xcassets */,
+				0442CF932B9AF68700564E81 /* LaunchScreen.storyboard */,
+				0442CF962B9AF68700564E81 /* Info.plist */,
+			);
+			path = comera;
+			sourceTree = "<group>";
+		};
+		0442CF9E2B9AF68800564E81 /* comeraTests */ = {
+			isa = PBXGroup;
+			children = (
+				0442CF9F2B9AF68800564E81 /* comeraTests.swift */,
+			);
+			path = comeraTests;
+			sourceTree = "<group>";
+		};
+		0442CFA82B9AF68800564E81 /* comeraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0442CFA92B9AF68800564E81 /* comeraUITests.swift */,
+				0442CFAB2B9AF68800564E81 /* comeraUITestsLaunchTests.swift */,
+			);
+			path = comeraUITests;
+			sourceTree = "<group>";
+		};
+		04721FDB2BA3219E003E8467 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				04721FD92BA3218A003E8467 /* extensionUIColor.swift */,
+				04721FDC2BA3220C003E8467 /* extensionUIView.swift */,
+				04260D572BB31F5200BF670D /* ApiEndPoints.swift */,
+				04260D592BB3210500BF670D /* RequestManager.swift */,
+				042434662BB4827500C3B3E6 /* Global.swift */,
+				04BEA9832BB5423D00BD89DB /* AlertHelper.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		048078352BA2E339001B86D1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				04BFB2372BADDECF00886E7C /* Side Menu View */,
+				04BFB2362BADDE9700886E7C /* Login View */,
+				04248A3C2BA88E700057C92B /* Landing View */,
+				044B66692BA32752004A4EBB /* dashBoardVC.swift */,
+				04248A3A2BA88E550057C92B /* loactionVC.swift */,
+				0468F0FF2BAD56D50021CE86 /* SideMenuViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		04BFB2362BADDE9700886E7C /* Login View */ = {
+			isa = PBXGroup;
+			children = (
+				047949182BA3267E0038A307 /* signINVC.swift */,
+				0408881A2BA325B2008250AF /* RegisterVC.swift */,
+				040888202BA334E9008250AF /* changePVC.swift */,
+				04793B8A2BA3213C00116736 /* profileVC.swift */,
+				04248A382BA874D70057C92B /* editProfileVC.swift */,
+			);
+			path = "Login View";
+			sourceTree = "<group>";
+		};
+		04BFB2372BADDECF00886E7C /* Side Menu View */ = {
+			isa = PBXGroup;
+			children = (
+				046A869F2BA325B10021D61D /* privacyPolicyVC.swift */,
+				0408881C2BA33181008250AF /* T&CVC.swift */,
+				0475B5F62BAD8FF500E5F98F /* settingVc.swift */,
+				0408881E2BA331E7008250AF /* servicesVC.swift */,
+				049214032BA323F800032D42 /* subscriptionVC.swift */,
+			);
+			path = "Side Menu View";
+			sourceTree = "<group>";
+		};
+		40D5A14FF6C5ED28E8DF9D87 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60B4996CD248F90107282A47 /* Pods_comera.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7C3872D036028C29D56FD65C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B86E7AADAC4388AA8AA52E9 /* Pods-comera.debug.xcconfig */,
+				09B771A4A80C45470FCA598E /* Pods-comera.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0442CF842B9AF68600564E81 /* comera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0442CFAF2B9AF68800564E81 /* Build configuration list for PBXNativeTarget "comera" */;
+			buildPhases = (
+				1145C48AF3C3AD64E357F133 /* [CP] Check Pods Manifest.lock */,
+				0442CF812B9AF68600564E81 /* Sources */,
+				0442CF822B9AF68600564E81 /* Frameworks */,
+				0442CF832B9AF68600564E81 /* Resources */,
+				DCD589B75CF310EF4D205B3E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = comera;
+			productName = comera;
+			productReference = 0442CF852B9AF68600564E81 /* comera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0442CF9A2B9AF68800564E81 /* comeraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0442CFB22B9AF68800564E81 /* Build configuration list for PBXNativeTarget "comeraTests" */;
+			buildPhases = (
+				0442CF972B9AF68800564E81 /* Sources */,
+				0442CF982B9AF68800564E81 /* Frameworks */,
+				0442CF992B9AF68800564E81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0442CF9D2B9AF68800564E81 /* PBXTargetDependency */,
+			);
+			name = comeraTests;
+			productName = comeraTests;
+			productReference = 0442CF9B2B9AF68800564E81 /* comeraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0442CFA42B9AF68800564E81 /* comeraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0442CFB52B9AF68800564E81 /* Build configuration list for PBXNativeTarget "comeraUITests" */;
+			buildPhases = (
+				0442CFA12B9AF68800564E81 /* Sources */,
+				0442CFA22B9AF68800564E81 /* Frameworks */,
+				0442CFA32B9AF68800564E81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0442CFA72B9AF68800564E81 /* PBXTargetDependency */,
+			);
+			name = comeraUITests;
+			productName = comeraUITests;
+			productReference = 0442CFA52B9AF68800564E81 /* comeraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0442CF7D2B9AF68500564E81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					0442CF842B9AF68600564E81 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					0442CF9A2B9AF68800564E81 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 0442CF842B9AF68600564E81;
+					};
+					0442CFA42B9AF68800564E81 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 0442CF842B9AF68600564E81;
+					};
+				};
+			};
+			buildConfigurationList = 0442CF802B9AF68500564E81 /* Build configuration list for PBXProject "comera" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0442CF7C2B9AF68500564E81;
+			productRefGroup = 0442CF862B9AF68600564E81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0442CF842B9AF68600564E81 /* comera */,
+				0442CF9A2B9AF68800564E81 /* comeraTests */,
+				0442CFA42B9AF68800564E81 /* comeraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0442CF832B9AF68600564E81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0442CF952B9AF68700564E81 /* LaunchScreen.storyboard in Resources */,
+				0442CF922B9AF68700564E81 /* Assets.xcassets in Resources */,
+				0442CF902B9AF68600564E81 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0442CF992B9AF68800564E81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0442CFA32B9AF68800564E81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1145C48AF3C3AD64E357F133 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-comera-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCD589B75CF310EF4D205B3E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-comera/Pods-comera-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-comera/Pods-comera-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-comera/Pods-comera-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0442CF812B9AF68600564E81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04248A392BA874D70057C92B /* editProfileVC.swift in Sources */,
+				04721FDD2BA3220C003E8467 /* extensionUIView.swift in Sources */,
+				049214042BA323F800032D42 /* subscriptionVC.swift in Sources */,
+				040888212BA334E9008250AF /* changePVC.swift in Sources */,
+				04BEA9842BB5423D00BD89DB /* AlertHelper.swift in Sources */,
+				0468F1002BAD56D50021CE86 /* SideMenuViewController.swift in Sources */,
+				04260D5A2BB3210500BF670D /* RequestManager.swift in Sources */,
+				042434652BB476C000C3B3E6 /* Response.swift in Sources */,
+				0442CF8D2B9AF68600564E81 /* ViewController.swift in Sources */,
+				04721FDA2BA3218A003E8467 /* extensionUIColor.swift in Sources */,
+				04793B8B2BA3213C00116736 /* profileVC.swift in Sources */,
+				048078392BA2E42C001B86D1 /* firstVC.swift in Sources */,
+				04248A3B2BA88E550057C92B /* loactionVC.swift in Sources */,
+				046A86A02BA325B10021D61D /* privacyPolicyVC.swift in Sources */,
+				04260D582BB31F5200BF670D /* ApiEndPoints.swift in Sources */,
+				047949192BA3267E0038A307 /* signINVC.swift in Sources */,
+				047949172BA324990038A307 /* thirdVC.swift in Sources */,
+				0442CF892B9AF68600564E81 /* AppDelegate.swift in Sources */,
+				044B666A2BA32752004A4EBB /* dashBoardVC.swift in Sources */,
+				0408881B2BA325B2008250AF /* RegisterVC.swift in Sources */,
+				0468F1022BAD5F4A0021CE86 /* MenuCell.swift in Sources */,
+				047949152BA320FE0038A307 /* SEcondVC.swift in Sources */,
+				0475B5F72BAD8FF500E5F98F /* settingVc.swift in Sources */,
+				0442CF8B2B9AF68600564E81 /* SceneDelegate.swift in Sources */,
+				0408881F2BA331E7008250AF /* servicesVC.swift in Sources */,
+				04248A3F2BA88EAB0057C92B /* locationTVCell.swift in Sources */,
+				0408881D2BA33181008250AF /* T&CVC.swift in Sources */,
+				042434672BB4827500C3B3E6 /* Global.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0442CF972B9AF68800564E81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0442CFA02B9AF68800564E81 /* comeraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0442CFA12B9AF68800564E81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0442CFAA2B9AF68800564E81 /* comeraUITests.swift in Sources */,
+				0442CFAC2B9AF68800564E81 /* comeraUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0442CF9D2B9AF68800564E81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0442CF842B9AF68600564E81 /* comera */;
+			targetProxy = 0442CF9C2B9AF68800564E81 /* PBXContainerItemProxy */;
+		};
+		0442CFA72B9AF68800564E81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0442CF842B9AF68600564E81 /* comera */;
+			targetProxy = 0442CFA62B9AF68800564E81 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0442CF8E2B9AF68600564E81 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0442CF8F2B9AF68600564E81 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0442CF932B9AF68700564E81 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0442CF942B9AF68700564E81 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0442CFAD2B9AF68800564E81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0442CFAE2B9AF68800564E81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0442CFB02B9AF68800564E81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B86E7AADAC4388AA8AA52E9 /* Pods-comera.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8PMQC6WL57;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = comera/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Akshada.comera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0442CFB12B9AF68800564E81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09B771A4A80C45470FCA598E /* Pods-comera.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8PMQC6WL57;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = comera/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Akshada.comera;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0442CFB32B9AF68800564E81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Akshada.comeraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/comera.app/comera";
+			};
+			name = Debug;
+		};
+		0442CFB42B9AF68800564E81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Akshada.comeraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/comera.app/comera";
+			};
+			name = Release;
+		};
+		0442CFB62B9AF68800564E81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Akshada.comeraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = comera;
+			};
+			name = Debug;
+		};
+		0442CFB72B9AF68800564E81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Akshada.comeraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = comera;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0442CF802B9AF68500564E81 /* Build configuration list for PBXProject "comera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0442CFAD2B9AF68800564E81 /* Debug */,
+				0442CFAE2B9AF68800564E81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0442CFAF2B9AF68800564E81 /* Build configuration list for PBXNativeTarget "comera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0442CFB02B9AF68800564E81 /* Debug */,
+				0442CFB12B9AF68800564E81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0442CFB22B9AF68800564E81 /* Build configuration list for PBXNativeTarget "comeraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0442CFB32B9AF68800564E81 /* Debug */,
+				0442CFB42B9AF68800564E81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0442CFB52B9AF68800564E81 /* Build configuration list for PBXNativeTarget "comeraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0442CFB62B9AF68800564E81 /* Debug */,
+				0442CFB72B9AF68800564E81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0442CF7D2B9AF68500564E81 /* Project object */;
+}

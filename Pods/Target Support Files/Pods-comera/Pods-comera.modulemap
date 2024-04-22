@@ -1,0 +1,6 @@
+framework module Pods_comera {
+  umbrella header "Pods-comera-umbrella.h"
+
+  export *
+  module * { export * }
+}
