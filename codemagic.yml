@@ -1,0 +1,17 @@
+workflows:
+  ios_build:
+    name: iOS Build
+    max_build_duration: 120
+    environment:
+      xcode: latest
+    scripts:
+      - name: Install dependencies
+        script: |
+          gem install bundler
+          bundle install
+      - name: Build iOS app
+        script: xcodebuild -scheme comera.xcworkspace -workspace comera.xcworkspace -configuration Release -archivePath build/comera.xcarchive archive
+      - name: Export IPA
+        script: xcodebuild -exportArchive -archivePath build/YourProject.xcarchive -exportPath build -exportOptionsPlist ExportOptions.plist
+    artifacts:
+      - build/*.ipa
