@@ -10,8 +10,8 @@ workflows:
           gem install bundler
           bundle install
       - name: Build iOS app
-        script: xcodebuild -scheme comera.xcworkspace -workspace comera.xcworkspace -configuration Release -archivePath build/comera.xcarchive archive
+        script: xcodebuild -scheme comera -workspace comera.xcworkspace -configuration Release -archivePath build/comera.xcarchive archive
       - name: Export IPA
-        script: xcodebuild -exportArchive -archivePath build/YourProject.xcarchive -exportPath build -exportOptionsPlist ExportOptions.plist
+        script: xcodebuild -exportArchive -archivePath build/comera.xcarchive -exportPath build -exportOptionsPlist ExportOptions.plist
     artifacts:
       - build/*.ipa
